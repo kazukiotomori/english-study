@@ -1,76 +1,48 @@
 import React, { useState, useEffect } from 'react';
-import { Check, X } from 'lucide-react';
+import { Check } from 'lucide-react';
 
-const VocabularyQuiz = ({ data, onComplete }) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
+// Sub-component for individual question capability
+// Using key={currentIndex} in parent will force full re-mount of this component per word
+const QuizQuestion = ({ word, allWords, onComplete }) => {
     const [options, setOptions] = useState([]);
     const [selectedOption, setSelectedOption] = useState(null);
-    const [isCorrect, setIsCorrect] = useState(null); // true, false, or null
+    const [isCorrect, setIsCorrect] = useState(null);
     const [shaking, setShaking] = useState(false);
 
-    const currentWord = data[currentIndex];
-
     useEffect(() => {
-        generateOptions();
-    }, [currentIndex]);
+        // Generate options on mount
+        const correct = word.ja;
+        // Mock dummy generation from other words
+        const others = allWords.filter(w => w.ja !== correct).map(w => w.ja);
 
-    const generateOptions = () => {
-        // Correct answer
-        const correct = currentWord.ja;
-
-        // Dummy answers (picks random from other words in the same set)
-        // In a real app with more data, we might pick from a global pool or same chapter
-        const others = data.filter((_, idx) => idx !== currentIndex).map(w => w.ja);
-
-        // If not enough dummies, just repeat (since data set is small in sample)
-        // Ideally we want 3 dummies.
         let dummies = [];
         if (others.length >= 3) {
             dummies = others.sort(() => 0.5 - Math.random()).slice(0, 3);
         } else {
-            // repeat others to fill 3
             while (dummies.length < 3 && others.length > 0) {
                 dummies.push(others[Math.floor(Math.random() * others.length)]);
             }
-            // If still empty (only 1 word in set?), provide generic dummies (unlikely case for specs)
             if (dummies.length < 3) dummies.push("Dummy 1", "Dummy 2", "Dummy 3");
         }
 
-        const allOptions = [correct, ...dummies];
-        // Shuffle
-        setOptions(allOptions.sort(() => 0.5 - Math.random()));
-        setSelectedOption(null);
-        setIsCorrect(null);
-    };
+        const allOptions = [correct, ...dummies].sort(() => 0.5 - Math.random());
+        setOptions(allOptions);
+    }, [word, allWords]);
 
     const handleSelect = (option) => {
-        if (selectedOption !== null) return; // Prevent double tap
+        if (selectedOption !== null) return;
 
         setSelectedOption(option);
 
-        if (option === currentWord.ja) {
+        if (option === word.ja) {
             setIsCorrect(true);
-            // Auto advance after short delay
             setTimeout(() => {
-                if (currentIndex < data.length - 1) {
-                    setCurrentIndex(prev => prev + 1);
-                } else {
-                    onComplete();
-                }
-            }, 600); // "Explosively fast" - 600ms is quick enough to see Feedback
+                onComplete();
+            }, 600);
         } else {
             setIsCorrect(false);
             setShaking(true);
             setTimeout(() => setShaking(false), 500);
-            // Stay on screen to let user learn
-        }
-    };
-
-    const handleNextAfterMistake = () => {
-        if (currentIndex < data.length - 1) {
-            setCurrentIndex(prev => prev + 1);
-        } else {
-            onComplete();
         }
     };
 
@@ -82,7 +54,6 @@ const VocabularyQuiz = ({ data, onComplete }) => {
             padding: 'var(--spacing-lg)',
             justifyContent: 'center'
         }}>
-            {/* Word Question */}
             <div style={{
                 textAlign: 'center',
                 marginBottom: 'auto',
@@ -94,16 +65,15 @@ const VocabularyQuiz = ({ data, onComplete }) => {
                     marginBottom: 'var(--spacing-sm)',
                     color: 'var(--color-primary)'
                 }}>
-                    {currentWord.en}
+                    {word.en}
                 </h2>
                 <p style={{ color: 'var(--color-text-sub)' }}>意味を選んでください</p>
             </div>
 
-            {/* Options */}
             <div style={{ display: 'grid', gap: 'var(--spacing-md)', paddingBottom: 'var(--spacing-xl)' }}>
                 {options.map((option, idx) => {
                     const isSelected = selectedOption === option;
-                    const isAnswer = option === currentWord.ja;
+                    const isAnswer = option === word.ja;
 
                     let btnStyle = {
                         padding: 'var(--spacing-lg)',
@@ -114,7 +84,9 @@ const VocabularyQuiz = ({ data, onComplete }) => {
                         fontWeight: '500',
                         textAlign: 'center',
                         transition: 'all 0.2s',
-                        border: '2px solid transparent'
+                        border: '2px solid transparent',
+                        outline: 'none',
+                        cursor: 'pointer'
                     };
 
                     if (selectedOption !== null) {
@@ -133,7 +105,7 @@ const VocabularyQuiz = ({ data, onComplete }) => {
 
                     return (
                         <button
-                            key={`${currentIndex}-${idx}`}
+                            key={idx}
                             onClick={() => handleSelect(option)}
                             style={btnStyle}
                         >
@@ -143,10 +115,9 @@ const VocabularyQuiz = ({ data, onComplete }) => {
                 })}
             </div>
 
-            {/* Continue button if wrong */}
             {isCorrect === false && (
                 <button
-                    onClick={handleNextAfterMistake}
+                    onClick={onComplete}
                     style={{
                         marginTop: 'var(--spacing-md)',
                         padding: 'var(--spacing-md)',
@@ -160,6 +131,28 @@ const VocabularyQuiz = ({ data, onComplete }) => {
                 </button>
             )}
         </div>
+    );
+};
+
+const VocabularyQuiz = ({ data, onComplete }) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    const handleNext = () => {
+        if (currentIndex < data.length - 1) {
+            setCurrentIndex(prev => prev + 1);
+        } else {
+            onComplete();
+        }
+    };
+
+    // key={currentIndex} ensures QuizQuestion is destroyed and recreated for every word
+    return (
+        <QuizQuestion
+            key={currentIndex}
+            word={data[currentIndex]}
+            allWords={data}
+            onComplete={handleNext}
+        />
     );
 };
 
