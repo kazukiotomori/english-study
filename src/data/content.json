@@ -7,8 +7,44 @@
                 {
                     "id": "8-1",
                     "title": "Mr. Oguchi's New Year's Eve",
-                    "sentence_en": "At the end of last year, Mr. Oguchi went to his grandmother's house. She lives in a tiny village in the mountains. He helped her with the housework because she is very old.",
-                    "sentence_ja": "去年の終わりに、小口さんは祖母の家に行きました。彼女は山の中のとても小さな村に住んでいます。彼女はとても年をとっているので、彼は家事を手伝いました。",
+                    "sentences": [
+                        {
+                            "en": "At the end of last year, Mr. Oguchi went to his grandmother's house.",
+                            "ja": "去年の終わりに、小口さんは祖母の家に行きました。"
+                        },
+                        {
+                            "en": "She lived in a tiny village in Nagano.",
+                            "ja": "彼女は長野のとても小さな村に住んでいました。"
+                        },
+                        {
+                            "en": "On December 31st, Mr. Oguchi helped with her housework.",
+                            "ja": "12月31日に、小口さんは彼女の家事を手伝いました。"
+                        },
+                        {
+                            "en": "At 8:00 am, he was washing the dishes.",
+                            "ja": "午前8時、彼は皿を洗っていました。"
+                        },
+                        {
+                            "en": "At 10:00 am, he was cleaning the floor.",
+                            "ja": "午前10時、彼は床を掃除していました。"
+                        },
+                        {
+                            "en": "At 2:00 pm, he was harvesting some vegetables in the field.",
+                            "ja": "午後2時、彼は畑で野菜を収穫していました。"
+                        },
+                        {
+                            "en": "At 7:20 pm, the song festival started.",
+                            "ja": "午後7時20分、歌謡祭が始まりました。"
+                        },
+                        {
+                            "en": "At 11:00 pm, Mr. Oguchi was still watching it.",
+                            "ja": "午後11時、小口さんはまだそれを見ていました。"
+                        },
+                        {
+                            "en": "At midnight, the new year came, but he was sleeping.",
+                            "ja": "真夜中、新年が来ましたが、彼は眠っていました。"
+                        }
+                    ],
                     "audio_file": "audio_8_1.mp3",
                     "vocabulary": [
                         {
@@ -16,20 +52,108 @@
                             "ja": "〜の終わりに"
                         },
                         {
+                            "en": "grandmother's",
+                            "ja": "祖母の"
+                        },
+                        {
                             "en": "tiny village",
                             "ja": "とても小さな村"
                         },
                         {
+                            "en": "helped with",
+                            "ja": "〜を手伝った"
+                        },
+                        {
                             "en": "housework",
                             "ja": "家事"
+                        },
+                        {
+                            "en": "was washing",
+                            "ja": "洗っていた"
+                        },
+                        {
+                            "en": "dishes",
+                            "ja": "皿"
+                        },
+                        {
+                            "en": "was cleaning",
+                            "ja": "掃除していた"
+                        },
+                        {
+                            "en": "floor",
+                            "ja": "床"
+                        },
+                        {
+                            "en": "was harvesting",
+                            "ja": "収穫していた"
+                        },
+                        {
+                            "en": "vegetables",
+                            "ja": "野菜"
+                        },
+                        {
+                            "en": "field",
+                            "ja": "畑"
+                        },
+                        {
+                            "en": "song festival",
+                            "ja": "歌謡祭"
+                        },
+                        {
+                            "en": "was still watching",
+                            "ja": "まだ見ていた"
+                        },
+                        {
+                            "en": "midnight",
+                            "ja": "真夜中"
+                        },
+                        {
+                            "en": "was sleeping",
+                            "ja": "眠っていた"
                         }
                     ]
                 },
                 {
                     "id": "8-3",
                     "title": "The Hare and the Tortoise",
-                    "sentence_en": "One day, a hare and a tortoise were walking in the forest. The hare said, 'I can run much faster than you.' The tortoise said, 'Let's have a race.'",
-                    "sentence_ja": "ある日、ウサギとカメが森を歩いていました。ウサギは「僕は君よりずっと速く走れるよ」と言いました。カメは「競争しよう」と言いました。",
+                    "sentences": [
+                        {
+                            "en": "One day, a hare and a tortoise were walking in the forest.",
+                            "ja": "ある日、ウサギとカメが森を歩いていました。"
+                        },
+                        {
+                            "en": "The tortoise was walking very slowly.",
+                            "ja": "カメはとてもゆっくり歩いていました。"
+                        },
+                        {
+                            "en": "\"You are so slow!\" said the hare.",
+                            "ja": "「君はとても遅いね！」とウサギは言いました。"
+                        },
+                        {
+                            "en": "The tortoise smiled and replied, \"I am slow, but I can still beat you in a race.\"",
+                            "ja": "カメは微笑んで答えました。「僕は遅いけど、競争なら君に勝てるよ。」"
+                        },
+                        {
+                            "en": "The next morning, the animals in the forest gathered.",
+                            "ja": "翌朝、森の動物たちが集まりました。"
+                        },
+                        {
+                            "en": "They wanted to see the race.",
+                            "ja": "彼らは競争を見たかったのです。"
+                        },
+                        {
+                            "en": "The hare and the tortoise were standing at the starting line.",
+                            "ja": "ウサギとカメはスタートラインに立っていました。"
+                        },
+                        {
+                            "en": "The race began!",
+                            "ja": "競争が始まりました！"
+                        },
+                        {
+                            "en": "The hare was running very fast, while the tortoise was walking steadily.",
+                            "ja": "ウサギはとても速く走っていましたが、カメは着実に歩いていました。"
+                        }
+                    ],
                     "audio_file": "audio_8_3.mp3",
                     "vocabulary": [
                         {
@@ -41,35 +165,64 @@
                             "ja": "かめ"
                         },
                         {
+                            "en": "forest",
+                            "ja": "森"
+                        },
+                        {
+                            "en": "slowly",
+                            "ja": "ゆっくりと"
+                        },
+                        {
+                            "en": "so",
+                            "ja": "とても"
+                        },
+                        {
+                            "en": "replied",
+                            "ja": "答えた"
+                        },
+                        {
+                            "en": "still",
+                            "ja": "まだ"
+                        },
+                        {
+                            "en": "beat",
+                            "ja": "打ち負かす"
+                        },
+                        {
+                            "en": "race",
+                            "ja": "競争"
+                        },
+                        {
+                            "en": "gathered",
+                            "ja": "集まった"
+                        },
+                        {
+                            "en": "wanted to",
+                            "ja": "〜したかった"
+                        },
+                        {
+                            "en": "standing",
+                            "ja": "立っている"
+                        },
+                        {
+                            "en": "starting line",
+                            "ja": "スタートライン"
+                        },
+                        {
+                            "en": "began",
+                            "ja": "始まった"
+                        },
+                        {
+                            "en": "fast",
+                            "ja": "速く"
+                        },
+                        {
+                            "en": "while",
+                            "ja": "〜（する）間に、〜だけれども"
+                        },
+                        {
                             "en": "steadily",
-                            "ja": "着実に、どんどん"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 9,
-            "title": "Chapter 9",
-            "sections": [
-                {
-                    "id": "9-1",
-                    "title": "A Trip to Kyoto",
-                    "sentence_en": "We are planning to visit Kyoto next month. There are many beautiful temples and shrines. I want to take a lot of pictures.",
-                    "sentence_ja": "私たちは来月京都を訪れる予定です。たくさんの美しいお寺や神社があります。私は写真をたくさん撮りたいです。",
-                    "audio_file": "audio_9_1.mp3",
-                    "vocabulary": [
-                        {
-                            "en": "temple",
-                            "ja": "寺"
-                        },
-                        {
-                            "en": "shrine",
-                            "ja": "神社"
-                        },
-                        {
-                            "en": "take pictures",
-                            "ja": "写真を撮る"
+                            "ja": "着実に"
                         }
                     ]
                 }

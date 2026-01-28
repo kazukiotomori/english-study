@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Play, Pause, ChevronRight, Settings } from 'lucide-react';
+import { Play, Pause, ChevronRight } from 'lucide-react';
 import { useLearning } from '../../context/LearningContext';
 
 const AudioPractice = ({ data, onNext }) => {
@@ -8,7 +8,12 @@ const AudioPractice = ({ data, onNext }) => {
     const [playbackRate, setPlaybackRate] = useState(settings.audioSpeed || 1.0);
     const audioRef = useRef(null);
 
-    const audioSrc = `/${data.audio_file}`; // Assuming files are in public root
+    const audioSrc = `/${data.audio_file}`;
+
+    // Handle case where sentence_en is string (legacy/fallback) or array
+    const sentences = Array.isArray(data.sentences)
+        ? data.sentences
+        : [{ en: data.sentence_en, ja: data.sentence_ja }];
 
     useEffect(() => {
         if (audioRef.current) {
@@ -41,22 +46,27 @@ const AudioPractice = ({ data, onNext }) => {
             padding: 'var(--spacing-lg)',
             justifyContent: 'space-between'
         }}>
-            <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <p style={{
-                    fontSize: '1.5rem',
-                    lineHeight: '1.6',
+            <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <div style={{
+                    fontSize: '1.2rem',
+                    lineHeight: '1.8',
                     fontWeight: '500',
                     textAlign: 'left',
-                    color: 'var(--color-text-main)'
+                    color: 'var(--color-text-main)',
+                    marginBottom: 'var(--spacing-sm)',
+                    width: '100%'
                 }}>
-                    {data.sentence_en}
-                </p>
+                    {sentences.map((s, index) => (
+                        <span key={index}>{s.en} </span>
+                    ))}
+                </div>
             </div>
 
             <div className="controls" style={{
                 display: 'flex',
                 flexDirection: 'column',
-                gap: 'var(--spacing-lg)'
+                gap: 'var(--spacing-lg)',
+                marginTop: 'var(--spacing-md)'
             }}>
                 {/* Audio Controls */}
                 <div style={{

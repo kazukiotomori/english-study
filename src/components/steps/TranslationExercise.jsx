@@ -1,37 +1,52 @@
 import React, { useState, useEffect } from 'react';
-import { Eye, ChevronRight, RefreshCw, AudioLines } from 'lucide-react';
+import { Eye, ChevronRight } from 'lucide-react';
 import { useLearning } from '../../context/LearningContext';
 
 const TranslationExercise = ({ data, mode, onNext }) => {
     // mode: 'decoding' (En -> Ja) or 'encoding' (Ja -> En)
     const [showAnswer, setShowAnswer] = useState(false);
     const { settings, updateSettings } = useLearning();
+    const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
 
-    // Local state for toggle, initially sync with props/settings
-    const [isReverse, setIsReverse] = useState(
-        mode === 'decoding' ? false : true
-    );
+    // Strictly use mode prop
+    const isReverse = mode === 'encoding';
+
+    const sentences = Array.isArray(data.sentences)
+        ? data.sentences
+        : [{ en: data.sentence_en, ja: data.sentence_ja }];
+
+    const currentSentence = sentences[currentSentenceIndex];
 
     useEffect(() => {
         // Reset state when data changes (e.g. moving next)
         setShowAnswer(false);
+        setCurrentSentenceIndex(0); // Reset sentence index when new data arrives
     }, [data]);
 
-    const handleToggleMode = () => {
-        // Toggle between Decoding <-> Encoding
-        // Note: This component is reused for Step 3 and 4, but the parent passes explicit 'mode'.
-        // If we toggle here, we are just changing the view temporarily? 
-        // SPEC says: "Step 3 and 4 are toggle switch for 'default' to 'reverse'".
-        // So likely one step with a toggle, OR separate steps.
-        // My Implementation Plan has them as separate steps (3 and 4).
-        // But Step 4 is just "Reverse" of Step 3?
-        // Let's allow visual toggle which overrides the default "Step 3" behavior if desired,
-        // but typically Step 3 is En->Ja.
-        setIsReverse(!isReverse);
+    useEffect(() => {
+        setShowAnswer(false);
+    }, [currentSentenceIndex]);
+
+    const handleNextBtn = () => {
+        if (showAnswer) {
+            // Move to next sentence or finish
+            if (currentSentenceIndex < sentences.length - 1) {
+                setCurrentSentenceIndex(prev => prev + 1);
+                setShowAnswer(false);
+            } else {
+                onNext();
+            }
+        } else {
+            if (currentSentenceIndex < sentences.length - 1) {
+                setCurrentSentenceIndex(prev => prev + 1);
+            } else {
+                onNext();
+            }
+        }
     };
 
-    const questionText = isReverse ? data.sentence_ja : data.sentence_en;
-    const answerText = isReverse ? data.sentence_en : data.sentence_ja;
+    const questionText = isReverse ? currentSentence.ja : currentSentence.en;
+    const answerText = isReverse ? currentSentence.en : currentSentence.ja;
     const label = isReverse ? "英語に直してください" : "日本語に直してください";
 
     return (
@@ -81,6 +96,11 @@ const TranslationExercise = ({ data, mode, onNext }) => {
                         </p>
                     </div>
                 )}
+
+                {/* Sentence progress indicator */}
+                <div style={{ marginTop: 'auto', fontSize: '0.8rem', color: 'var(--color-text-sub)', textAlign: 'center' }}>
+                    {currentSentenceIndex + 1} / {sentences.length}
+                </div>
             </div>
 
             <div className="controls" style={{ display: 'grid', gap: 'var(--spacing-md)' }}>
@@ -104,7 +124,7 @@ const TranslationExercise = ({ data, mode, onNext }) => {
                     </button>
                 ) : (
                     <button
-                        onClick={onNext}
+                        onClick={handleNextBtn}
                         style={{
                             padding: 'var(--spacing-lg)',
                             background: 'var(--color-primary)',
@@ -118,27 +138,9 @@ const TranslationExercise = ({ data, mode, onNext }) => {
                             width: '100%'
                         }}
                     >
-                        次へ <ChevronRight size={20} />
+                        {currentSentenceIndex < sentences.length - 1 ? '次の文へ' : '次へ'} <ChevronRight size={20} />
                     </button>
                 )}
-
-                <button
-                    onClick={handleToggleMode}
-                    style={{
-                        padding: 'var(--spacing-md)',
-                        background: 'transparent',
-                        color: 'var(--color-text-sub)',
-                        borderRadius: 'var(--radius-md)',
-                        fontWeight: '500',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        gap: 'var(--spacing-sm)',
-                        fontSize: '0.9rem'
-                    }}
-                >
-                    <RefreshCw size={16} /> モード切替 ({isReverse ? '日→英' : '英→日'})
-                </button>
             </div>
         </div>
     );
