@@ -133,7 +133,7 @@ const VocabularyQuiz = ({ data, onComplete }) => {
 
                     return (
                         <button
-                            key={idx}
+                            key={`${currentIndex}-${idx}`}
                             onClick={() => handleSelect(option)}
                             style={btnStyle}
                         >
