@@ -15,9 +15,8 @@ const Home = () => {
                     fontWeight: '700',
                     marginBottom: 'var(--spacing-xs)'
                 }}>
-                    イングリッシュ・マスター
+                    英語学習アプリ
                 </h1>
-                <p style={{ color: 'var(--color-text-sub)' }}>英語学習サイクル</p>
             </header>
 
             <div className="chapter-list">
