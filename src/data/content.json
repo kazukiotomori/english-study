@@ -225,6 +225,445 @@
                             "ja": "着実に"
                         }
                     ]
+                },
+                {
+                    "id": "8-4",
+                    "title": "The Hare and the Tortoise 2",
+                    "sentences": [
+                        {
+                            "en": "Soon, the hare was far ahead of the tortoise.",
+                            "ja": "すぐに、ウサギはカメのはるか前方にいました。"
+                        },
+                        {
+                            "en": "\"The tortoise can't catch me.\"",
+                            "ja": "「カメは僕に追いつけないよ。」"
+                        },
+                        {
+                            "en": "The hare sat down under the tree and took a nap.",
+                            "ja": "ウサギは木の下に座って、昼寝をしました。"
+                        },
+                        {
+                            "en": "The hare was sleeping, but the tortoise was walking.",
+                            "ja": "ウサギは眠っていましたが、カメは歩いていました。"
+                        },
+                        {
+                            "en": "He didn't stop because he wanted to win the race.",
+                            "ja": "彼は競争に勝ちたかったので、立ち止まりませんでした。"
+                        },
+                        {
+                            "en": "The hare woke up, but at that time, the tortoise was walking near the finish line.",
+                            "ja": "ウサギは目を覚ましましたが、その時、カメはゴールラインの近くを歩いていました。"
+                        },
+                        {
+                            "en": "The hare started again, but it was too late.",
+                            "ja": "ウサギは再び走り始めましたが、手遅れでした。"
+                        },
+                        {
+                            "en": "The tortoise won the race.",
+                            "ja": "カメは競争に勝ちました。"
+                        },
+                        {
+                            "en": "The animals were cheering for the tortoise.",
+                            "ja": "動物たちはカメを応援していました。"
+                        },
+                        {
+                            "en": "The hare learned an important lesson: \"Slow and steady wins the race.\"",
+                            "ja": "ウサギは重要な教訓を学びました。「急がば回れ。」"
+                        }
+                    ],
+                    "audio_file": "audio_8_4.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "far ahead of",
+                            "ja": "〜のはるか前方に"
+                        },
+                        {
+                            "en": "catch",
+                            "ja": "追いつく"
+                        },
+                        {
+                            "en": "sat down under",
+                            "ja": "〜の下に座った"
+                        },
+                        {
+                            "en": "took a nap",
+                            "ja": "昼寝をした"
+                        },
+                        {
+                            "en": "wanted to win",
+                            "ja": "勝ちたかった"
+                        },
+                        {
+                            "en": "woke up",
+                            "ja": "目を覚ました"
+                        },
+                        {
+                            "en": "at that time",
+                            "ja": "その時"
+                        },
+                        {
+                            "en": "near",
+                            "ja": "〜の近く"
+                        },
+                        {
+                            "en": "finish line",
+                            "ja": "ゴールライン"
+                        },
+                        {
+                            "en": "again",
+                            "ja": "再び"
+                        },
+                        {
+                            "en": "it was too late",
+                            "ja": "手遅れだった"
+                        },
+                        {
+                            "en": "won",
+                            "ja": "勝った"
+                        },
+                        {
+                            "en": "cheering for",
+                            "ja": "〜を応援していた"
+                        },
+                        {
+                            "en": "learned",
+                            "ja": "学んだ"
+                        },
+                        {
+                            "en": "important lesson",
+                            "ja": "重要な教訓"
+                        },
+                        {
+                            "en": "Slow and steady wins the race",
+                            "ja": "急がば回れ"
+                        }
+                    ]
+                },
+                {
+                    "id": "8-5",
+                    "title": "Urashima Taro",
+                    "sentences": [
+                        {
+                            "en": "Once upon a time, Urashima Taro was walking along a beach.",
+                            "ja": "昔々、浦島太郎は浜辺を歩いていました。"
+                        },
+                        {
+                            "en": "Children were bullying a sea turtle.",
+                            "ja": "子供たちがウミガメをいじめていました。"
+                        },
+                        {
+                            "en": "Taro stopped them.",
+                            "ja": "太郎は彼らを止めました。"
+                        },
+                        {
+                            "en": "After a few days, the turtle came to Taro.",
+                            "ja": "数日後、カメが太郎のところにやってきました。"
+                        },
+                        {
+                            "en": "It took him to the palace.",
+                            "ja": "カメは彼を竜宮城に連れて行きました。"
+                        },
+                        {
+                            "en": "Otohime welcomed him.",
+                            "ja": "乙姫は彼を歓迎しました。"
+                        },
+                        {
+                            "en": "He ate delicious food and enjoyed the party.",
+                            "ja": "彼は美味しい料理を食べ、パーティーを楽しみました。"
+                        },
+                        {
+                            "en": "After the party, Taro said, \"Take me home.\"",
+                            "ja": "パーティーの後、太郎は言いました。「私を家に帰してください。」"
+                        },
+                        {
+                            "en": "Otohime gave a box to him.",
+                            "ja": "乙姫は彼に箱を渡しました。"
+                        },
+                        {
+                            "en": "She said, \"Don't open it.\"",
+                            "ja": "彼女は言いました。「それを開けないでください。」"
+                        },
+                        {
+                            "en": "Taro went back to the village, but everything looked different.",
+                            "ja": "太郎は村に戻りましたが、全てが違って見えました。"
+                        },
+                        {
+                            "en": "Nobody knew him, and he was lonely.",
+                            "ja": "誰も彼を知らず、彼は孤独でした。"
+                        },
+                        {
+                            "en": "He opened the box, and smoke came out!",
+                            "ja": "彼が箱を開けると、煙が出てきました！"
+                        },
+                        {
+                            "en": "Taro turned into an old man.",
+                            "ja": "太郎はお爺さんになってしまいました。"
+                        }
+                    ],
+                    "audio_file": "audio_8_5.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "Once upon a time",
+                            "ja": "昔々"
+                        },
+                        {
+                            "en": "along",
+                            "ja": "〜に沿って"
+                        },
+                        {
+                            "en": "beach",
+                            "ja": "浜辺"
+                        },
+                        {
+                            "en": "bullying",
+                            "ja": "いじめている"
+                        },
+                        {
+                            "en": "sea turtle",
+                            "ja": "ウミガメ"
+                        },
+                        {
+                            "en": "stopped",
+                            "ja": "止めた"
+                        },
+                        {
+                            "en": "a few",
+                            "ja": "数〜"
+                        },
+                        {
+                            "en": "turtle",
+                            "ja": "カメ"
+                        },
+                        {
+                            "en": "took",
+                            "ja": "連れて行った"
+                        },
+                        {
+                            "en": "palace",
+                            "ja": "宮殿"
+                        },
+                        {
+                            "en": "welcomed",
+                            "ja": "歓迎した"
+                        },
+                        {
+                            "en": "ate",
+                            "ja": "食べた"
+                        },
+                        {
+                            "en": "delicious",
+                            "ja": "美味しい"
+                        },
+                        {
+                            "en": "Take",
+                            "ja": "連れて行って"
+                        },
+                        {
+                            "en": "gave",
+                            "ja": "与えた"
+                        },
+                        {
+                            "en": "went back",
+                            "ja": "戻った"
+                        },
+                        {
+                            "en": "village",
+                            "ja": "村"
+                        },
+                        {
+                            "en": "everything",
+                            "ja": "全てのもの"
+                        },
+                        {
+                            "en": "different",
+                            "ja": "違った"
+                        },
+                        {
+                            "en": "Nobody",
+                            "ja": "誰も〜ない"
+                        },
+                        {
+                            "en": "lonely",
+                            "ja": "孤独な"
+                        },
+                        {
+                            "en": "smoke",
+                            "ja": "煙"
+                        },
+                        {
+                            "en": "came out",
+                            "ja": "出てきた"
+                        },
+                        {
+                            "en": "turned into",
+                            "ja": "〜に変わった"
+                        }
+                    ]
+                },
+                {
+                    "id": "8-6",
+                    "title": "The Bamboo Princess",
+                    "sentences": [
+                        {
+                            "en": "Once upon a time, an old man and woman lived in a small house.",
+                            "ja": "昔々、お爺さんとお婆さんが小さな家に住んでいました。"
+                        },
+                        {
+                            "en": "He collected wood and plants from the forest.",
+                            "ja": "彼は森で木や植物を集めていました。"
+                        },
+                        {
+                            "en": "One day, he found a mysterious bamboo plant.",
+                            "ja": "ある日、彼は不思議な竹を見つけました。"
+                        },
+                        {
+                            "en": "It was shining.",
+                            "ja": "それは光っていました。"
+                        },
+                        {
+                            "en": "He cut it with his ax.",
+                            "ja": "彼は斧でそれを切りました。"
+                        },
+                        {
+                            "en": "A small girl was sitting in the bamboo.",
+                            "ja": "小さな女の子が竹の中に座っていました。"
+                        },
+                        {
+                            "en": "He took the girl to his wife.",
+                            "ja": "彼はその女の子を妻のところに連れて行きました。"
+                        },
+                        {
+                            "en": "She was happy and said, \"Her name is Kaguyahime.\"",
+                            "ja": "彼女は喜んで言いました。「彼女の名前はかぐや姫です。」"
+                        },
+                        {
+                            "en": "They lived together.",
+                            "ja": "彼らは一緒に暮らしました。"
+                        },
+                        {
+                            "en": "They were poor but happy.",
+                            "ja": "彼らは貧しかったですが、幸せでした。"
+                        },
+                        {
+                            "en": "Kaguyahime grew into a graceful woman.",
+                            "ja": "かぐや姫は優雅な女性に成長しました。"
+                        },
+                        {
+                            "en": "One night, Kaguyahime was watching the moon and weeping.",
+                            "ja": "ある夜、かぐや姫は月を見て泣いていました。"
+                        },
+                        {
+                            "en": "She looked sad.",
+                            "ja": "彼女は悲しそうに見えました。"
+                        },
+                        {
+                            "en": "She said, \"I will go back to the moon.\"",
+                            "ja": "彼女は言いました。「私は月に帰ります。」"
+                        },
+                        {
+                            "en": "On the next full moon, Kaguyahime thanked the old man and woman.",
+                            "ja": "次の満月の夜、かぐや姫はお爺さんとお婆さんに感謝しました。"
+                        },
+                        {
+                            "en": "She went home.",
+                            "ja": "彼女は家に帰りました。"
+                        }
+                    ],
+                    "audio_file": "audio_8_6.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "Once upon a time",
+                            "ja": "昔々"
+                        },
+                        {
+                            "en": "collected",
+                            "ja": "集めた"
+                        },
+                        {
+                            "en": "wood",
+                            "ja": "木"
+                        },
+                        {
+                            "en": "forest",
+                            "ja": "森"
+                        },
+                        {
+                            "en": "found",
+                            "ja": "見つけた"
+                        },
+                        {
+                            "en": "mysterious",
+                            "ja": "不思議な"
+                        },
+                        {
+                            "en": "bamboo",
+                            "ja": "竹"
+                        },
+                        {
+                            "en": "shining",
+                            "ja": "光っている"
+                        },
+                        {
+                            "en": "cut",
+                            "ja": "切った"
+                        },
+                        {
+                            "en": "ax",
+                            "ja": "斧"
+                        },
+                        {
+                            "en": "sitting",
+                            "ja": "座っている"
+                        },
+                        {
+                            "en": "took",
+                            "ja": "連れて行った"
+                        },
+                        {
+                            "en": "wife",
+                            "ja": "妻"
+                        },
+                        {
+                            "en": "together",
+                            "ja": "一緒に"
+                        },
+                        {
+                            "en": "poor",
+                            "ja": "貧しい"
+                        },
+                        {
+                            "en": "grew into",
+                            "ja": "〜に成長した"
+                        },
+                        {
+                            "en": "graceful",
+                            "ja": "優雅な"
+                        },
+                        {
+                            "en": "moon",
+                            "ja": "月"
+                        },
+                        {
+                            "en": "weeping",
+                            "ja": "泣いている"
+                        },
+                        {
+                            "en": "looked",
+                            "ja": "〜に見えた"
+                        },
+                        {
+                            "en": "will",
+                            "ja": "〜するつもりだ"
+                        },
+                        {
+                            "en": "full moon",
+                            "ja": "満月"
+                        },
+                        {
+                            "en": "thanked",
+                            "ja": "感謝した"
+                        }
+                    ]
                 }
             ]
         }
