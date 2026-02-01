@@ -8,7 +8,7 @@ const AudioPractice = ({ data, onNext }) => {
     const [playbackRate, setPlaybackRate] = useState(settings.audioSpeed || 1.0);
     const audioRef = useRef(null);
 
-    const audioSrc = `/${data.audio_file}`;
+    const audioSrc = `${import.meta.env.BASE_URL}${data.audio_file}`;
 
     // Handle case where sentence_en is string (legacy/fallback) or array
     const sentences = Array.isArray(data.sentences)

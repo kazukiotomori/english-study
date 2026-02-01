@@ -7,7 +7,7 @@ import LearningSession from './pages/LearningSession';
 function App() {
   return (
     <LearningProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="app-layout" style={{ maxWidth: '480px', margin: '0 auto', minHeight: '100vh', position: 'relative' }}>
           <Routes>
             <Route path="/" element={<Home />} />
