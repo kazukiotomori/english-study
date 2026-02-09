@@ -666,6 +666,560 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 9,
+            "title": "Chapter 9",
+            "sections": [
+                {
+                    "id": "9-1",
+                    "title": "Owl's Wish",
+                    "sentences": [
+                        {
+                            "en": "Owl always had a wish.",
+                            "ja": "フクロウはずっと願いを持っていました。"
+                        },
+                        {
+                            "en": "What did he want to be?",
+                            "ja": "彼は何になりたかったのでしょうか？"
+                        },
+                        {
+                            "en": "He wanted to be a knight.",
+                            "ja": "彼は騎士になりたかったのです。"
+                        },
+                        {
+                            "en": "He thought, \"I will be a great knight. I am brave and clever. I will have many friends.\"",
+                            "ja": "彼は考えました。「僕は偉大な騎士になるんだ。勇敢で賢いからね。友達もたくさんできるだろう。」"
+                        },
+                        {
+                            "en": "One day, many knights disappeared from the castle.",
+                            "ja": "ある日、城から多くの騎士が消えました。"
+                        },
+                        {
+                            "en": "So, the castle needed new knights.",
+                            "ja": "そこで、城は新しい騎士を必要としていました。"
+                        },
+                        {
+                            "en": "Owl applied to Knight School.",
+                            "ja": "フクロウは騎士学校に応募しました。"
+                        },
+                        {
+                            "en": "The school accepted him.",
+                            "ja": "学校は彼を受け入れました。"
+                        },
+                        {
+                            "en": "Owl entered the school.",
+                            "ja": "フクロウは学校に入学しました。"
+                        },
+                        {
+                            "en": "Owl was an excellent student.",
+                            "ja": "フクロウは優秀な生徒でした。"
+                        },
+                        {
+                            "en": "But he had a tough time, too.",
+                            "ja": "しかし、彼は大変な思いもしました。"
+                        },
+                        {
+                            "en": "He could not hold a sword.",
+                            "ja": "彼は剣を持つことができませんでした。"
+                        },
+                        {
+                            "en": "He could not hold a shield, either.",
+                            "ja": "盾を持つこともできませんでした。"
+                        },
+                        {
+                            "en": "In addition, he sometimes fell asleep during the day.",
+                            "ja": "さらに、彼は時々日中に眠ってしまいました。"
+                        }
+                    ],
+                    "audio_file": "audio_9_1.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "wish",
+                            "ja": "願い"
+                        },
+                        {
+                            "en": "wanted to",
+                            "ja": "〜したかった"
+                        },
+                        {
+                            "en": "knight",
+                            "ja": "騎士"
+                        },
+                        {
+                            "en": "thought",
+                            "ja": "考えた"
+                        },
+                        {
+                            "en": "great",
+                            "ja": "偉大な"
+                        },
+                        {
+                            "en": "brave",
+                            "ja": "勇敢な"
+                        },
+                        {
+                            "en": "clever",
+                            "ja": "賢い"
+                        },
+                        {
+                            "en": "knights",
+                            "ja": "騎士たち"
+                        },
+                        {
+                            "en": "disappeared",
+                            "ja": "消えた"
+                        },
+                        {
+                            "en": "castle",
+                            "ja": "城"
+                        },
+                        {
+                            "en": "applied to",
+                            "ja": "〜に応募した"
+                        },
+                        {
+                            "en": "Knight School",
+                            "ja": "騎士学校"
+                        },
+                        {
+                            "en": "accepted",
+                            "ja": "受け入れた"
+                        },
+                        {
+                            "en": "entered",
+                            "ja": "入学した"
+                        },
+                        {
+                            "en": "excellent",
+                            "ja": "優秀な"
+                        },
+                        {
+                            "en": "tough",
+                            "ja": "厳しい"
+                        },
+                        {
+                            "en": "hold",
+                            "ja": "持つ"
+                        },
+                        {
+                            "en": "sword",
+                            "ja": "剣"
+                        },
+                        {
+                            "en": "shield",
+                            "ja": "盾"
+                        },
+                        {
+                            "en": "In addition",
+                            "ja": "さらに"
+                        },
+                        {
+                            "en": "fell asleep",
+                            "ja": "眠りに落ちた"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-2",
+                    "title": "The Knight Night Watch",
+                    "sentences": [
+                        {
+                            "en": "Knight School was strict, but Owl worked and worked.",
+                            "ja": "騎士学校は厳しかったですが、フクロウは一生懸命勉強しました。"
+                        },
+                        {
+                            "en": "At last, he graduated from school with all his friends.",
+                            "ja": "ついに、彼は友達みんなと一緒に学校を卒業しました。"
+                        },
+                        {
+                            "en": "Fortunately, Owl got a job.",
+                            "ja": "幸運にも、フクロウは仕事を得ました。"
+                        },
+                        {
+                            "en": "He became the Knight Night Watch.",
+                            "ja": "彼は騎士の夜警になりました。"
+                        },
+                        {
+                            "en": "He was very good at his job.",
+                            "ja": "彼はその仕事がとても得意でした。"
+                        },
+                        {
+                            "en": "The other knights usually slept during the long Knight Night Watch, but Owl didn't.",
+                            "ja": "他の騎士たちは長い夜警の間にたいてい眠っていましたが、フクロウは眠りませんでした。"
+                        },
+                        {
+                            "en": "He was alone on the castle wall and felt like a real knight.",
+                            "ja": "彼は城壁の上に独りでいて、本物の騎士になったように感じました。"
+                        },
+                        {
+                            "en": "One evening, it was very dark and very, very quiet.",
+                            "ja": "ある晩、とても暗く、とても静かでした。"
+                        },
+                        {
+                            "en": "Suddenly, Owl heard a strange sound.",
+                            "ja": "突然、フクロウは奇妙な音を聞きました。"
+                        },
+                        {
+                            "en": "Whoosh!!!",
+                            "ja": "ヒューッ！！！"
+                        }
+                    ],
+                    "audio_file": "audio_9_2.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "strict",
+                            "ja": "厳しい"
+                        },
+                        {
+                            "en": "worked and worked",
+                            "ja": "一生懸命働いた"
+                        },
+                        {
+                            "en": "At last",
+                            "ja": "ついに"
+                        },
+                        {
+                            "en": "graduated",
+                            "ja": "卒業した"
+                        },
+                        {
+                            "en": "Fortunately",
+                            "ja": "幸運にも"
+                        },
+                        {
+                            "en": "got",
+                            "ja": "得た"
+                        },
+                        {
+                            "en": "became",
+                            "ja": "〜になった"
+                        },
+                        {
+                            "en": "Knight Night Watch",
+                            "ja": "騎士の夜警"
+                        },
+                        {
+                            "en": "was very good at",
+                            "ja": "〜がとても得意だった"
+                        },
+                        {
+                            "en": "The other",
+                            "ja": "他の"
+                        },
+                        {
+                            "en": "slept",
+                            "ja": "眠った"
+                        },
+                        {
+                            "en": "alone",
+                            "ja": "独りで"
+                        },
+                        {
+                            "en": "castle wall",
+                            "ja": "城壁"
+                        },
+                        {
+                            "en": "felt like",
+                            "ja": "〜のように感じた"
+                        },
+                        {
+                            "en": "real",
+                            "ja": "本物の"
+                        },
+                        {
+                            "en": "evening",
+                            "ja": "夕方"
+                        },
+                        {
+                            "en": "quiet",
+                            "ja": "静かな"
+                        },
+                        {
+                            "en": "Suddenly",
+                            "ja": "突然"
+                        },
+                        {
+                            "en": "heard",
+                            "ja": "聞いた"
+                        },
+                        {
+                            "en": "strange",
+                            "ja": "奇妙な"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-3",
+                    "title": "The Dragon",
+                    "sentences": [
+                        {
+                            "en": "\"Who is it?\" Owl asked.",
+                            "ja": "「誰だ？」フクロウは尋ねました。"
+                        },
+                        {
+                            "en": "It was a dragon!",
+                            "ja": "それはドラゴンでした！"
+                        },
+                        {
+                            "en": "The dragon said, \"I am hungry. I want to eat something.\"",
+                            "ja": "ドラゴンは言いました。「お腹が空いた。何か食べたい。」"
+                        },
+                        {
+                            "en": "Owl was very afraid.",
+                            "ja": "フクロウはとても怯えました。"
+                        },
+                        {
+                            "en": "But he thought to himself, \"Now I am a real knight and knights are brave.\"",
+                            "ja": "しかし、彼は心の中で思いました。「今、僕は本物の騎士だ。そして騎士は勇敢なんだ。」"
+                        },
+                        {
+                            "en": "He said, \"I am a knight of the Night Watch! I will protect this castle!\"",
+                            "ja": "彼は言いました。「僕は夜警の騎士だ！僕はこの城を守る！」"
+                        },
+                        {
+                            "en": "\"You don't look like a knight,\" said the dragon.",
+                            "ja": "「お前は騎士のようには見えないな」とドラゴンは言いました。"
+                        },
+                        {
+                            "en": "\"You look like a midnight snack.\"",
+                            "ja": "「お前は夜食のように見えるよ。」"
+                        },
+                        {
+                            "en": "Owl was very terrified again.",
+                            "ja": "フクロウは再びとても怯えました。"
+                        },
+                        {
+                            "en": "But he thought to himself, \"Now I am a real knight and knights are clever.\"",
+                            "ja": "しかし、彼は心の中で思いました。「今、僕は本物の騎士だ。そして騎士は賢いんだ。」"
+                        },
+                        {
+                            "en": "He said, \"You don't want me. I am too small. A great dragon like you will not be happy!\"",
+                            "ja": "彼は言いました。「僕を食べたくないはずだよ。僕は小さすぎるからね。君のような偉大なドラゴンは満足できないよ！」"
+                        },
+                        {
+                            "en": "\"How about a pizza instead?\"",
+                            "ja": "「代わりにピザはどう？」"
+                        }
+                    ],
+                    "audio_file": "audio_9_3.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "asked",
+                            "ja": "尋ねた"
+                        },
+                        {
+                            "en": "dragon",
+                            "ja": "ドラゴン"
+                        },
+                        {
+                            "en": "something",
+                            "ja": "何か"
+                        },
+                        {
+                            "en": "afraid",
+                            "ja": "恐れて"
+                        },
+                        {
+                            "en": "thought to himself",
+                            "ja": "心の中で思った"
+                        },
+                        {
+                            "en": "real",
+                            "ja": "本物の"
+                        },
+                        {
+                            "en": "brave",
+                            "ja": "勇敢な"
+                        },
+                        {
+                            "en": "protect",
+                            "ja": "守る"
+                        },
+                        {
+                            "en": "look like",
+                            "ja": "〜のように見える"
+                        },
+                        {
+                            "en": "midnight snack",
+                            "ja": "夜食"
+                        },
+                        {
+                            "en": "terrified",
+                            "ja": "おびえた"
+                        },
+                        {
+                            "en": "clever",
+                            "ja": "賢い"
+                        },
+                        {
+                            "en": "too",
+                            "ja": "〜すぎる"
+                        },
+                        {
+                            "en": "great dragon",
+                            "ja": "偉大なドラゴン"
+                        },
+                        {
+                            "en": "like you",
+                            "ja": "あなたのような"
+                        },
+                        {
+                            "en": "How about",
+                            "ja": "〜はどうですか"
+                        },
+                        {
+                            "en": "instead",
+                            "ja": "代わりに"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-4",
+                    "title": "Friends",
+                    "sentences": [
+                        {
+                            "en": "The dragon loved pizza.",
+                            "ja": "ドラゴンはピザが大好きでした。"
+                        },
+                        {
+                            "en": "Owl and the dragon became friends.",
+                            "ja": "フクロウとドラゴンは友達になりました。"
+                        },
+                        {
+                            "en": "They talked about many things.",
+                            "ja": "彼らはたくさんのことを話しました。"
+                        },
+                        {
+                            "en": "They hatched from eggs.",
+                            "ja": "彼らは卵から孵りました。"
+                        },
+                        {
+                            "en": "They shared a love for the night.",
+                            "ja": "彼らは夜の時間を愛していました。"
+                        },
+                        {
+                            "en": "They slept during the day and were active at night.",
+                            "ja": "彼らは日中に眠り、夜に活動しました。"
+                        },
+                        {
+                            "en": "They had wings, so they could fly in the sky!",
+                            "ja": "彼らは翼を持っていたので、空を飛ぶことができました！"
+                        },
+                        {
+                            "en": "They had a great deal in common.",
+                            "ja": "彼らには多くの共通点がありました。"
+                        },
+                        {
+                            "en": "The following week, not a single knight disappeared.",
+                            "ja": "その次の週、騎士はひとりもいなくなりませんでした。"
+                        },
+                        {
+                            "en": "Each night, Owl patrolled the walls carefully.",
+                            "ja": "毎晩、フクロウは注意深く城壁をパトロールしました。"
+                        },
+                        {
+                            "en": "It was very dark and very, very quiet.",
+                            "ja": "とても暗く、とても静かでした。"
+                        },
+                        {
+                            "en": "But Owl didn't mind, because he was brave, clever, and had many friends.",
+                            "ja": "しかし、フクロウは気にしませんでした。なぜなら彼は勇敢で、賢く、たくさんの友達がいたからです。"
+                        }
+                    ],
+                    "audio_file": "audio_9_4.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "pizza",
+                            "ja": "ピザ"
+                        },
+                        {
+                            "en": "became friends",
+                            "ja": "友達になった"
+                        },
+                        {
+                            "en": "talked about",
+                            "ja": "〜について話した"
+                        },
+                        {
+                            "en": "hatched",
+                            "ja": "孵化した"
+                        },
+                        {
+                            "en": "shared",
+                            "ja": "共有した"
+                        },
+                        {
+                            "en": "slept",
+                            "ja": "眠った"
+                        },
+                        {
+                            "en": "during the day",
+                            "ja": "日中"
+                        },
+                        {
+                            "en": "active",
+                            "ja": "活動的な"
+                        },
+                        {
+                            "en": "at night",
+                            "ja": "夜に"
+                        },
+                        {
+                            "en": "wings",
+                            "ja": "翼"
+                        },
+                        {
+                            "en": "fly",
+                            "ja": "飛ぶ"
+                        },
+                        {
+                            "en": "sky",
+                            "ja": "空"
+                        },
+                        {
+                            "en": "had a great deal in common",
+                            "ja": "多くの共通点があった"
+                        },
+                        {
+                            "en": "The following",
+                            "ja": "その次の"
+                        },
+                        {
+                            "en": "not a single",
+                            "ja": "ひとつも〜ない"
+                        },
+                        {
+                            "en": "disappeared",
+                            "ja": "消えた"
+                        },
+                        {
+                            "en": "Each night",
+                            "ja": "毎晩"
+                        },
+                        {
+                            "en": "patrolled",
+                            "ja": "パトロールした"
+                        },
+                        {
+                            "en": "walls",
+                            "ja": "壁"
+                        },
+                        {
+                            "en": "carefully",
+                            "ja": "注意深く"
+                        },
+                        {
+                            "en": "quiet",
+                            "ja": "静かな"
+                        },
+                        {
+                            "en": "mind",
+                            "ja": "気にする"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
