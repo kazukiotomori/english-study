@@ -1218,6 +1218,952 @@
                             "ja": "気にする"
                         }
                     ]
+                },
+                {
+                    "id": "9-6",
+                    "title": "Owl's Night Watch",
+                    "sentences": [
+                        {
+                            "en": "Three years later, Owl was the captain of the Knight Night Watch.",
+                            "ja": "3年後、フクロウは騎士の夜警の隊長でした。"
+                        },
+                        {
+                            "en": "He was very important.",
+                            "ja": "彼はとても重要でした。"
+                        },
+                        {
+                            "en": "One night, the other knights were sleeping, while Owl was awake.",
+                            "ja": "ある夜、他の騎士たちが眠っている間、フクロウは起きていました。"
+                        },
+                        {
+                            "en": "He lit the torches and patrolled the walls.",
+                            "ja": "彼は松明に火をつけ、城壁をパトロールしました。"
+                        },
+                        {
+                            "en": "A pack of wolves was running on the ground, but he didn't notice.",
+                            "ja": "オオカミの群れが地面を走っていましたが、彼は気づきませんでした。"
+                        },
+                        {
+                            "en": "He thought to himself, \"No problem.\"",
+                            "ja": "彼は心の中で「問題ない」と思いました。"
+                        },
+                        {
+                            "en": "All night long, he worked and worked.",
+                            "ja": "一晩中、彼は働き続けました。"
+                        },
+                        {
+                            "en": "The castle was safe.",
+                            "ja": "城は安全でした。"
+                        },
+                        {
+                            "en": "Just before dawn, Owl came back to his room.",
+                            "ja": "夜明けの直前、フクロウは自分の部屋に戻りました。"
+                        },
+                        {
+                            "en": "He ate pizza for dinner.",
+                            "ja": "彼は夕食にピザを食べました。"
+                        },
+                        {
+                            "en": "It was his favorite food.",
+                            "ja": "それは彼の大好物でした。"
+                        },
+                        {
+                            "en": "The next morning, Owl was drifting off to sleep, but he couldn't.",
+                            "ja": "翌朝、フクロウは眠りに落ちそうでしたが、眠れませんでした。"
+                        },
+                        {
+                            "en": "A great deal of noise woke him up!",
+                            "ja": "大きな音が彼を起こしました！"
+                        }
+                    ],
+                    "audio_file": "audio_9_6.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "later",
+                            "ja": "後で"
+                        },
+                        {
+                            "en": "captain",
+                            "ja": "隊長"
+                        },
+                        {
+                            "en": "important",
+                            "ja": "重要な"
+                        },
+                        {
+                            "en": "the other",
+                            "ja": "他の"
+                        },
+                        {
+                            "en": "while",
+                            "ja": "〜の間"
+                        },
+                        {
+                            "en": "awake",
+                            "ja": "起きて"
+                        },
+                        {
+                            "en": "lit",
+                            "ja": "火をつけた"
+                        },
+                        {
+                            "en": "torches",
+                            "ja": "松明"
+                        },
+                        {
+                            "en": "patrolled",
+                            "ja": "パトロールした"
+                        },
+                        {
+                            "en": "A pack of wolves",
+                            "ja": "オオカミの群れ"
+                        },
+                        {
+                            "en": "ground",
+                            "ja": "地面"
+                        },
+                        {
+                            "en": "notice",
+                            "ja": "気づく"
+                        },
+                        {
+                            "en": "thought to himself",
+                            "ja": "心の中で思った"
+                        },
+                        {
+                            "en": "No problem",
+                            "ja": "問題ない"
+                        },
+                        {
+                            "en": "All night long",
+                            "ja": "一晩中"
+                        },
+                        {
+                            "en": "safe",
+                            "ja": "安全な"
+                        },
+                        {
+                            "en": "dawn",
+                            "ja": "夜明け"
+                        },
+                        {
+                            "en": "came back",
+                            "ja": "戻った"
+                        },
+                        {
+                            "en": "favorite",
+                            "ja": "お気に入りの"
+                        },
+                        {
+                            "en": "drifting off to sleep",
+                            "ja": "眠りに落ちそうになる"
+                        },
+                        {
+                            "en": "A great deal of",
+                            "ja": "たくさんの、大きな"
+                        },
+                        {
+                            "en": "woke him up",
+                            "ja": "彼を起こした"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-7",
+                    "title": "Early Bird",
+                    "sentences": [
+                        {
+                            "en": "\"Hi, my name is Early Bird! I'm your diehard fan!",
+                            "ja": "「こんにちは、私の名前は早起き鳥！あなたの熱狂的なファンです！"
+                        },
+                        {
+                            "en": "I want to be a Knight Owl just like you!",
+                            "ja": "あなたのようなフクロウの騎士になりたいです！"
+                        },
+                        {
+                            "en": "You can teach everything to me!",
+                            "ja": "何でも教えてください！"
+                        },
+                        {
+                            "en": "I'm a super-duper learner!",
+                            "ja": "私は超すごい学習者です！"
+                        },
+                        {
+                            "en": "What is your cape for?!",
+                            "ja": "あなたのマントは何のためですか？！"
+                        },
+                        {
+                            "en": "Can we eat snacks at work?!\"",
+                            "ja": "仕事中におやつは食べられますか？！」"
+                        },
+                        {
+                            "en": "Owl rolled over and said, \"I am too tired right now, so I can't teach you.\"",
+                            "ja": "フクロウは寝返りを打って言いました。「私は今とても疲れているので、教えることはできません。」"
+                        },
+                        {
+                            "en": "Early Bird made a mess in Owl's room.",
+                            "ja": "早起き鳥はフクロウの部屋を散らかしました。"
+                        },
+                        {
+                            "en": "She painted, decorated the room and sang loudly.",
+                            "ja": "彼女は絵の具を塗り、部屋を飾り、大きな声で歌いました。"
+                        },
+                        {
+                            "en": "She was very busy and noisy all day long.",
+                            "ja": "彼女は一日中とても忙しく、騒がしかったです。"
+                        },
+                        {
+                            "en": "That afternoon, Owl and Early Bird went to work together.",
+                            "ja": "その日の午後、フクロウと早起き鳥は一緒に働きに行きました。"
+                        },
+                        {
+                            "en": "But before sunset, she fell asleep.",
+                            "ja": "しかし日没前に、彼女は眠りに落ちました。"
+                        },
+                        {
+                            "en": "All night long, Owl protected the castle alone.",
+                            "ja": "一晩中、フクロウは一人で城を守りました。"
+                        }
+                    ],
+                    "audio_file": "audio_9_7.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "diehard",
+                            "ja": "熱意のある、熱狂的な"
+                        },
+                        {
+                            "en": "just like you",
+                            "ja": "君とちょうど同じように"
+                        },
+                        {
+                            "en": "super-duper",
+                            "ja": "超すごい"
+                        },
+                        {
+                            "en": "learner",
+                            "ja": "学習者"
+                        },
+                        {
+                            "en": "cape",
+                            "ja": "マント"
+                        },
+                        {
+                            "en": "snacks",
+                            "ja": "おやつ"
+                        },
+                        {
+                            "en": "at work",
+                            "ja": "仕事中に"
+                        },
+                        {
+                            "en": "rolled over",
+                            "ja": "寝返りを打った"
+                        },
+                        {
+                            "en": "too tired",
+                            "ja": "疲れすぎている"
+                        },
+                        {
+                            "en": "right now",
+                            "ja": "今は"
+                        },
+                        {
+                            "en": "made a mess",
+                            "ja": "散らかした"
+                        },
+                        {
+                            "en": "painted",
+                            "ja": "絵を描いた"
+                        },
+                        {
+                            "en": "decorated",
+                            "ja": "飾った"
+                        },
+                        {
+                            "en": "sang loudly",
+                            "ja": "大きな声で歌った"
+                        },
+                        {
+                            "en": "busy",
+                            "ja": "忙しい"
+                        },
+                        {
+                            "en": "noisy",
+                            "ja": "騒がしい"
+                        },
+                        {
+                            "en": "all day long",
+                            "ja": "一日中"
+                        },
+                        {
+                            "en": "afternoon",
+                            "ja": "午後"
+                        },
+                        {
+                            "en": "together",
+                            "ja": "一緒に"
+                        },
+                        {
+                            "en": "sunset",
+                            "ja": "日没"
+                        },
+                        {
+                            "en": "fell asleep",
+                            "ja": "眠りに落ちた"
+                        },
+                        {
+                            "en": "All night long",
+                            "ja": "一晩中"
+                        },
+                        {
+                            "en": "protected",
+                            "ja": "守った"
+                        },
+                        {
+                            "en": "alone",
+                            "ja": "一人で"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-8",
+                    "title": "Early Bird's Adventure",
+                    "sentences": [
+                        {
+                            "en": "The next morning, \"Good day to you! Today, we are going to go on an adventure!\" said Early Bird.",
+                            "ja": "翌朝、「おはよう！今日は冒険に出かけるよ！」と早起き鳥は言いました。"
+                        },
+                        {
+                            "en": "\"Don't talk nonsense. Please leave me alone.",
+                            "ja": "「ばかげたことを言うな。一人にしてくれ。"
+                        },
+                        {
+                            "en": "I want to rest more,\" said Owl.",
+                            "ja": "もっと休みたいんだ」とフクロウは言いました。"
+                        },
+                        {
+                            "en": "He went back to sleep.",
+                            "ja": "彼は再び眠りにつきました。"
+                        },
+                        {
+                            "en": "Early Bird pretended to be a Knight Owl.",
+                            "ja": "早起き鳥はフクロウの騎士のふりをしました。"
+                        },
+                        {
+                            "en": "She put on a helmet, but it was too big.",
+                            "ja": "彼女はヘルメットを被りましたが、それは大きすぎました。"
+                        },
+                        {
+                            "en": "She used a cup instead.",
+                            "ja": "彼女は代わりにカップを使いました。"
+                        },
+                        {
+                            "en": "She looked at herself in the mirror.",
+                            "ja": "彼女は鏡の中の自分を見ました。"
+                        },
+                        {
+                            "en": "And then, she beat a drum and played music.",
+                            "ja": "そして、彼女は太鼓を叩き、音楽を演奏しました。"
+                        },
+                        {
+                            "en": "She was very busy and noisy in the daytime.",
+                            "ja": "彼女は昼間とても忙しく、騒がしかったです。"
+                        },
+                        {
+                            "en": "That night, Owl was on guard on his own.",
+                            "ja": "その夜、フクロウは一人で警備に当たりました。"
+                        },
+                        {
+                            "en": "Early Bird slept soundly next to him.",
+                            "ja": "早起き鳥は彼の隣でぐっすり眠りました。"
+                        }
+                    ],
+                    "audio_file": "audio_9_8.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "Good day to you",
+                            "ja": "こんにちは"
+                        },
+                        {
+                            "en": "are going to",
+                            "ja": "〜するつもりである"
+                        },
+                        {
+                            "en": "go on an adventure",
+                            "ja": "冒険に出かける"
+                        },
+                        {
+                            "en": "Don't talk nonsense",
+                            "ja": "ばかげたことを言うな"
+                        },
+                        {
+                            "en": "leave me alone",
+                            "ja": "一人にしてくれ"
+                        },
+                        {
+                            "en": "rest",
+                            "ja": "休む"
+                        },
+                        {
+                            "en": "went back to sleep",
+                            "ja": "再び眠りについた"
+                        },
+                        {
+                            "en": "pretended",
+                            "ja": "ふりをした"
+                        },
+                        {
+                            "en": "put on",
+                            "ja": "被った、着た"
+                        },
+                        {
+                            "en": "helmet",
+                            "ja": "ヘルメット"
+                        },
+                        {
+                            "en": "too",
+                            "ja": "〜すぎる"
+                        },
+                        {
+                            "en": "instead",
+                            "ja": "代わりに"
+                        },
+                        {
+                            "en": "herself",
+                            "ja": "彼女自身"
+                        },
+                        {
+                            "en": "mirror",
+                            "ja": "鏡"
+                        },
+                        {
+                            "en": "beat",
+                            "ja": "叩く"
+                        },
+                        {
+                            "en": "drum",
+                            "ja": "太鼓"
+                        },
+                        {
+                            "en": "busy",
+                            "ja": "忙しい"
+                        },
+                        {
+                            "en": "noisy",
+                            "ja": "騒がしい"
+                        },
+                        {
+                            "en": "in the daytime",
+                            "ja": "昼間に"
+                        },
+                        {
+                            "en": "on guard",
+                            "ja": "警備をして"
+                        },
+                        {
+                            "en": "on his own",
+                            "ja": "一人で"
+                        },
+                        {
+                            "en": "slept soundly",
+                            "ja": "ぐっすり眠った"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-9",
+                    "title": "Early Bird Leaves",
+                    "sentences": [
+                        {
+                            "en": "The next day, Early Bird acted like a Knight Owl again.",
+                            "ja": "翌日、早起き鳥は再びフクロウの騎士のように振る舞いました。"
+                        },
+                        {
+                            "en": "\"Hoooooot! Wow, I sounded so owlish!",
+                            "ja": "「ホーゥ！わあ、とてもフクロウっぽい音がした！"
+                        },
+                        {
+                            "en": "Hoooooot! By the way, I made pancakes!",
+                            "ja": "ホーゥ！ところで、パンケーキを作ったよ！"
+                        },
+                        {
+                            "en": "Do you like pancakes? Where's the syrup?\"",
+                            "ja": "パンケーキは好き？シロップはどこ？」"
+                        },
+                        {
+                            "en": "\"Stop! You are not an owl!",
+                            "ja": "「やめろ！君はフクロウじゃない！"
+                        },
+                        {
+                            "en": "You are not a knight, either!",
+                            "ja": "君は騎士でもない！"
+                        },
+                        {
+                            "en": "I can't get enough sleep!",
+                            "ja": "十分な睡眠がとれないじゃないか！"
+                        },
+                        {
+                            "en": "Get out of here!\"",
+                            "ja": "ここから出て行け！」"
+                        },
+                        {
+                            "en": "So, Early Bird disappeared from the castle.",
+                            "ja": "そこで、早起き鳥は城から姿を消しました。"
+                        },
+                        {
+                            "en": "That afternoon, Owl put away Early Bird's stuff.",
+                            "ja": "その日の午後、フクロウは早起き鳥の物を片付けました。"
+                        },
+                        {
+                            "en": "He swept the floor with a broom.",
+                            "ja": "彼はほうきで床を掃きました。"
+                        },
+                        {
+                            "en": "Soon it was dark outside.",
+                            "ja": "すぐに外は暗くなりました。"
+                        },
+                        {
+                            "en": "Owl ate supper alone and worried about Early Bird.",
+                            "ja": "フクロウは一人で夕食を食べ、早起き鳥のことを心配しました。"
+                        },
+                        {
+                            "en": "He made a decision.",
+                            "ja": "彼は決心をしました。"
+                        },
+                        {
+                            "en": "\"I will go into the forest and find her!\"",
+                            "ja": "「森に入って彼女を見つけるぞ！」"
+                        }
+                    ],
+                    "audio_file": "audio_9_9.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "acted like",
+                            "ja": "〜のように振る舞った"
+                        },
+                        {
+                            "en": "sounded",
+                            "ja": "〜に聞こえた"
+                        },
+                        {
+                            "en": "so",
+                            "ja": "とても"
+                        },
+                        {
+                            "en": "owlish",
+                            "ja": "フクロウのような"
+                        },
+                        {
+                            "en": "By the way",
+                            "ja": "ところで"
+                        },
+                        {
+                            "en": "pancakes",
+                            "ja": "パンケーキ"
+                        },
+                        {
+                            "en": "syrup",
+                            "ja": "シロップ"
+                        },
+                        {
+                            "en": "Stop",
+                            "ja": "やめて"
+                        },
+                        {
+                            "en": "either",
+                            "ja": "〜もまた（〜ない）"
+                        },
+                        {
+                            "en": "get enough",
+                            "ja": "十分に得る"
+                        },
+                        {
+                            "en": "Get out of here",
+                            "ja": "ここから出て行け"
+                        },
+                        {
+                            "en": "disappeared",
+                            "ja": "姿を消した"
+                        },
+                        {
+                            "en": "castle",
+                            "ja": "城"
+                        },
+                        {
+                            "en": "afternoon",
+                            "ja": "午後"
+                        },
+                        {
+                            "en": "put away",
+                            "ja": "片付けた"
+                        },
+                        {
+                            "en": "stuff",
+                            "ja": "物"
+                        },
+                        {
+                            "en": "swept",
+                            "ja": "掃いた"
+                        },
+                        {
+                            "en": "floor",
+                            "ja": "床"
+                        },
+                        {
+                            "en": "broom",
+                            "ja": "ほうき"
+                        },
+                        {
+                            "en": "dark",
+                            "ja": "暗い"
+                        },
+                        {
+                            "en": "outside",
+                            "ja": "外は"
+                        },
+                        {
+                            "en": "supper",
+                            "ja": "夕食"
+                        },
+                        {
+                            "en": "alone",
+                            "ja": "一人で"
+                        },
+                        {
+                            "en": "worried about",
+                            "ja": "〜について心配した"
+                        },
+                        {
+                            "en": "made a decision",
+                            "ja": "決心した"
+                        },
+                        {
+                            "en": "forest",
+                            "ja": "森"
+                        },
+                        {
+                            "en": "find",
+                            "ja": "見つける"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-10",
+                    "title": "In the Forest",
+                    "sentences": [
+                        {
+                            "en": "It was freezing in the forest.",
+                            "ja": "森の中は凍えるように寒かったです。"
+                        },
+                        {
+                            "en": "Owl searched for hours but he could not find Early Bird.",
+                            "ja": "フクロウは何時間も探しましたが、早起き鳥を見つけることができませんでした。"
+                        },
+                        {
+                            "en": "Around midnight, he heard an unusual noise.",
+                            "ja": "真夜中ごろ、彼は異常な音を聞きました。"
+                        },
+                        {
+                            "en": "\"Awooooo.\"",
+                            "ja": "「ワオォォォーン。」"
+                        },
+                        {
+                            "en": "Owl thought, \"That does not sound like Early Bird.\"",
+                            "ja": "フクロウは思いました。「あれは早起き鳥のようには聞こえないな。」"
+                        },
+                        {
+                            "en": "He heard the noise again.",
+                            "ja": "彼は再びその音を聞きました。"
+                        },
+                        {
+                            "en": "\"Awooooooooooooo!\"",
+                            "ja": "「ワオォォォォォォォォーン！」"
+                        },
+                        {
+                            "en": "This time, it was very close.",
+                            "ja": "今回は、とても近かったです。"
+                        },
+                        {
+                            "en": "Owl whispered to himself, \"That is definitely not Early Bird.\"",
+                            "ja": "フクロウは自分に囁きました。「あれは絶対に早起き鳥ではない。」"
+                        },
+                        {
+                            "en": "Suddenly, he saw glowing eyes between the trees.",
+                            "ja": "突然、彼は木々の間に光る目を見ました。"
+                        },
+                        {
+                            "en": "A pack of wolves appeared!",
+                            "ja": "オオカミの群れが現れました！"
+                        },
+                        {
+                            "en": "They were already surrounding Owl.",
+                            "ja": "彼らはすでにフクロウを囲んでいました。"
+                        },
+                        {
+                            "en": "They were going to attack him.",
+                            "ja": "彼らは彼を襲おうとしていました。"
+                        },
+                        {
+                            "en": "He was in a hopeless situation.",
+                            "ja": "彼は絶望的な状況にありました。"
+                        },
+                        {
+                            "en": "He couldn't cry for help because he was too scared.",
+                            "ja": "彼は怖すぎて助けを呼ぶことができませんでした。"
+                        }
+                    ],
+                    "audio_file": "audio_9_10.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "freezing",
+                            "ja": "凍えるような"
+                        },
+                        {
+                            "en": "searched for hours",
+                            "ja": "何時間も探した"
+                        },
+                        {
+                            "en": "find",
+                            "ja": "見つける"
+                        },
+                        {
+                            "en": "midnight",
+                            "ja": "真夜中"
+                        },
+                        {
+                            "en": "heard",
+                            "ja": "聞いた"
+                        },
+                        {
+                            "en": "unusual",
+                            "ja": "異常な"
+                        },
+                        {
+                            "en": "sound like",
+                            "ja": "〜のように聞こえる"
+                        },
+                        {
+                            "en": "again",
+                            "ja": "再び"
+                        },
+                        {
+                            "en": "This time",
+                            "ja": "今回は"
+                        },
+                        {
+                            "en": "close",
+                            "ja": "近い"
+                        },
+                        {
+                            "en": "whispered",
+                            "ja": "ささやいた"
+                        },
+                        {
+                            "en": "definitely",
+                            "ja": "絶対に"
+                        },
+                        {
+                            "en": "Suddenly",
+                            "ja": "突然"
+                        },
+                        {
+                            "en": "glowing",
+                            "ja": "光っている"
+                        },
+                        {
+                            "en": "between",
+                            "ja": "〜の間に"
+                        },
+                        {
+                            "en": "A pack of wolves",
+                            "ja": "オオカミの群れ"
+                        },
+                        {
+                            "en": "appeared",
+                            "ja": "現れた"
+                        },
+                        {
+                            "en": "already",
+                            "ja": "すでに"
+                        },
+                        {
+                            "en": "surrounding",
+                            "ja": "囲んでいる"
+                        },
+                        {
+                            "en": "were going to",
+                            "ja": "〜する予定だった"
+                        },
+                        {
+                            "en": "attack",
+                            "ja": "攻撃する"
+                        },
+                        {
+                            "en": "hopeless",
+                            "ja": "絶望的な"
+                        },
+                        {
+                            "en": "situation",
+                            "ja": "状況"
+                        },
+                        {
+                            "en": "cry for help",
+                            "ja": "助けを求めて叫ぶ"
+                        },
+                        {
+                            "en": "too",
+                            "ja": "〜すぎる"
+                        },
+                        {
+                            "en": "scared",
+                            "ja": "怖がって"
+                        }
+                    ]
+                },
+                {
+                    "id": "9-11",
+                    "title": "A True Friend",
+                    "sentences": [
+                        {
+                            "en": "\"Stop, stop, stop!!!\" Early Bird arrived with many knights.",
+                            "ja": "「やめて、やめて、やめて！！！」早起き鳥がたくさんの騎士たちと一緒に到着しました。"
+                        },
+                        {
+                            "en": "All at once, they chased the wolves away.",
+                            "ja": "彼らは一斉にオオカミたちを追い払いました。"
+                        },
+                        {
+                            "en": "Early Bird said, \"My first rescue mission was a success!",
+                            "ja": "早起き鳥は言いました。「私の初めての救出任務は成功だったわ！"
+                        },
+                        {
+                            "en": "I went back to your room, but you weren't there.",
+                            "ja": "私はあなたの部屋に戻ったけど、あなたはいなかった。"
+                        },
+                        {
+                            "en": "So, I woke everyone up.",
+                            "ja": "だから、私はみんなを起こしたの。"
+                        },
+                        {
+                            "en": "I'm really good at that!\"",
+                            "ja": "私はそれが本当に得意なのよ！」"
+                        },
+                        {
+                            "en": "Owl said, \"You saved my life.",
+                            "ja": "フクロウは言いました。「君は僕の命を救ってくれた。"
+                        },
+                        {
+                            "en": "I can't thank you enough!\"",
+                            "ja": "感謝してもしきれないよ！」"
+                        },
+                        {
+                            "en": "The next morning, Early Bird worked and worked while Owl was sleeping.",
+                            "ja": "翌朝、フクロウが眠っている間、早起き鳥は一生懸命働きました。"
+                        },
+                        {
+                            "en": "She read a cookbook.",
+                            "ja": "彼女は料理本を読みました。"
+                        },
+                        {
+                            "en": "She learned a new pancake recipe and practiced.",
+                            "ja": "彼女は新しいパンケーキのレシピを学び、練習しました。"
+                        },
+                        {
+                            "en": "That night, Owl and Early Bird had dinner together.",
+                            "ja": "その夜、フクロウと早起き鳥は一緒に夕食を食べました。"
+                        },
+                        {
+                            "en": "They talked about their day and night over pancakes.",
+                            "ja": "彼らはパンケーキを食べながら、彼らの昼と夜について話しました。"
+                        }
+                    ],
+                    "audio_file": "audio_9_11.mp3",
+                    "vocabulary": [
+                        {
+                            "en": "arrived",
+                            "ja": "到着した"
+                        },
+                        {
+                            "en": "All at once",
+                            "ja": "一斉に"
+                        },
+                        {
+                            "en": "chased the wolves away",
+                            "ja": "オオカミを追い払った"
+                        },
+                        {
+                            "en": "rescue",
+                            "ja": "救助"
+                        },
+                        {
+                            "en": "mission",
+                            "ja": "任務"
+                        },
+                        {
+                            "en": "success",
+                            "ja": "成功"
+                        },
+                        {
+                            "en": "there",
+                            "ja": "そこに"
+                        },
+                        {
+                            "en": "woke everyone up",
+                            "ja": "みんなを起こした"
+                        },
+                        {
+                            "en": "really",
+                            "ja": "本当に"
+                        },
+                        {
+                            "en": "saved",
+                            "ja": "救った"
+                        },
+                        {
+                            "en": "life",
+                            "ja": "命"
+                        },
+                        {
+                            "en": "can't thank you enough",
+                            "ja": "感謝してもしきれない"
+                        },
+                        {
+                            "en": "while",
+                            "ja": "〜の間"
+                        },
+                        {
+                            "en": "read",
+                            "ja": "読んだ"
+                        },
+                        {
+                            "en": "cookbook",
+                            "ja": "料理本"
+                        },
+                        {
+                            "en": "learned",
+                            "ja": "学んだ"
+                        },
+                        {
+                            "en": "recipe",
+                            "ja": "レシピ"
+                        },
+                        {
+                            "en": "practiced",
+                            "ja": "練習した"
+                        },
+                        {
+                            "en": "dinner",
+                            "ja": "夕食"
+                        },
+                        {
+                            "en": "together",
+                            "ja": "一緒に"
+                        },
+                        {
+                            "en": "over pancakes",
+                            "ja": "パンケーキを食べながら"
+                        }
+                    ]
                 }
             ]
         }
